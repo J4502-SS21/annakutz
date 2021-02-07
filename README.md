@@ -1,7 +1,2 @@
 # annakutz
-<<<<<<< Updated upstream
-
-=======
-https://j4502-ss21.github.io/annakutz/
-<
->>>>>>> Stashed changes
+My 4502 page.
