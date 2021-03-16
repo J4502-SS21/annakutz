@@ -80,14 +80,14 @@ section {
   box-shadow: 1px 1px 15px #DAFAB3;
 }
 
-.navbar {
+.navigation {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 @media (max-width: 600px) {
-.navbar {
+.navigation {
   flex-direction: column;
   justify-content: center;
   flex-basis: 100%;
