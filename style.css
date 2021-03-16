@@ -21,9 +21,6 @@ margin: 0;
 display: inline-block;
 }
 
-.container {
-  display: flex;
-}
 
 ul {
   list-style-type: none;
@@ -33,7 +30,8 @@ li {
   width: 33%;
   float: left;
   margin: 20px auto;
-
+  display: flex;
+  justify-content: center;
 }
 
 a {color: #DAFAB3;
@@ -82,11 +80,23 @@ section {
   box-shadow: 1px 1px 15px #DAFAB3;
 }
 
-@media all and (max-width: 600px) {
-.container {
-  flex-wrap: wrap;
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-  .container li {
-    flex-basis: 100%
+
+@media (max-width: 600px) {
+.navbar {
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 100%;
+}
+
+@media (max-width: 600px) {
+  .item {
+    width: 100%;
+    text-align: center;
+    display: flex;
   }
 }
