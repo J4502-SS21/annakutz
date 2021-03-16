@@ -8,7 +8,7 @@ body {
   font-family: 'Old Standard TT', serif;
 }
 
-nav {
+div {
 font-family: 'Oswald', sans-serif;
 color: white;
 background: black;
@@ -42,7 +42,7 @@ font-weight:bold;
 text-transform: uppercase;
 }
 
-nav a:hover, p a:hover {
+div a:hover, p a:hover {
   color: black;
   background: white;
 }
@@ -80,14 +80,14 @@ section {
   box-shadow: 1px 1px 15px #DAFAB3;
 }
 
-.navigation {
+.container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 @media (max-width: 600px) {
-.navigation {
+.container {
   flex-direction: column;
   justify-content: center;
   flex-basis: 100%;
