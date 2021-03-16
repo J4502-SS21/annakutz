@@ -82,9 +82,11 @@ section {
   box-shadow: 1px 1px 15px #DAFAB3;
 }
 
-@media (max-width: 600px) {
-  li {
-    width: 100%;
-    flex direction: column;
+@media all and (max-width: 600px) {
+.container {
+  flex-wrap: wrap;
+}
+  .container li {
+    flex-basis: 100%
   }
 }
