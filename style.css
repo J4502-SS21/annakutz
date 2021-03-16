@@ -9,8 +9,6 @@ body {
 }
 
 nav {
-display: flex;
-flex direction: column;
 font-family: 'Oswald', sans-serif;
 color: white;
 background: black;
@@ -21,6 +19,10 @@ font-size: 25px;
 width: 100%;
 margin: 0;
 display: inline-block;
+}
+
+.container {
+  display: flex;
 }
 
 ul {
@@ -83,6 +85,6 @@ section {
 @media (max-width: 600px) {
   li {
     width: 100%;
-    flex direction: row;
+    flex direction: column;
   }
 }
